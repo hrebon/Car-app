@@ -7,7 +7,11 @@ export default function App() {
   const [state, setstate] = useState("i am good")
   return (
     <View style={styles.container}>
-      <CarItem/>
+      <CarItem
+        name={'Model X'}
+        tagline={'Starting from $60,400'}
+        image={require('./assets/images/ModelX.jpeg')}
+      />
       <StatusBar style='auto'/>
     </View>
   );

@@ -6,8 +6,8 @@ const StyledButton = (props) => {
 
     const {type, content, onPress} = props;
     
-    const backgroundColor = type === 'primary' ? 'black' : 'white';
-    const textColor = type === 'primary' ? 'white' : 'black';
+    const backgroundColor = type === 'primary' ? 'yellow' : 'gray';
+    const textColor = type === 'primary' ? 'black' : 'white';
 
     return (
         <View style={styles.container}>
